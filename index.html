@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inicio - Grabaciones Aéreas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Black Box archive</a>
+    </div>
+  </nav>
+
+  <div class="container text-center mt-5">
+    <h1 class="mb-3">Welcome</h1>
+    <p class="lead">Listen the final moments in the cockpit before the crash with real audio files.</p>
+    
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-5 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">CVR</h5>
+            <p class="card-text">Cockpit Voice Recorder</p>
+            <a href="cvr.html?uid=<?= Math.random().toString(36).substring(2) ?>" class="btn btn-danger">Click here to access to the CVR archive</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">ATC</h5>
+            <p class="card-text">Air Traffic Control</p>
+            <a href="atc.html?uid=<?= Math.random().toString(36).substring(2) ?>" class="btn btn-danger">Click here to access to the ATC archive</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center mt-5 p-3 bg-dark text-light">
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

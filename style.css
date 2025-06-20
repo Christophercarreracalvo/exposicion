@@ -1,0 +1,12 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.card img {
+  max-height: 200px;
+  object-fit: contain;
+}
+
+footer {
+  margin-top: 40px;
+}

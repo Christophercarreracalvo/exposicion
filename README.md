@@ -1,2 +1,1 @@
-# exposicion
-Exposicion 2
+# Exposicion 2
